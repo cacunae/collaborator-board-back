@@ -11,7 +11,7 @@ Se deben seguir las instrucciones a continuación para levantar tanto el front, 
 * NPM
 
 ### 1. Iniciar el Servidor (Backend)
-El backend gestiona la sincronización en tiempo real. En una terminal escribe:
+El backend gestiona la sincronización en tiempo real. Para iniciarlo, una terminal se debe escribir:
 
 ```bash
 cd backend
@@ -20,7 +20,7 @@ npm run dev
 ```
 
 ### 2. Iniciar la Aplicación (Frontend)
-La interfaz de usuario. En una segunda terminal escribe:
+La interfaz de usuario. En una segunda terminal se debe escribir:
 
 ```bash
 cd frontend
@@ -29,7 +29,7 @@ npm run dev
 ```
 
 ### 3.Ejecutar Tests Automatizados
-Para verificar que la lógica del negocio y los componentes funcionan correctamente:
+Para verificar que la lógica del negocio y los componentes funcionan correctamente se debe escribir en una terminal:
 
 ```bash
 cd frontend
@@ -45,17 +45,17 @@ Una vez dentro, la experiencia está centrada en la interacción natural:
 
 * **Organizar:** Las notas pueden ser arrastradas y posicionadas en cualquier parte usando drag an drop. El movimiento lo ven todos en tiempo real.
 
-* **Editar:** Haz click en una nota para comenzar a editarla 
+* **Editar:** Para editar una nota se debe hacer click sobre ella
 
 * **Detalle visual:** Si otro usuario empieza a escribir en la misma nota, se mostrará un indicador: "Carlos...".
 
-* **Comentar:** Haz click en el botón 💬 de la nota para abrir el hilo de comentarios.
+* **Comentar:** Para acceder a la sección de comentarios, se debe pulsar el botón con ícono de comentario.
 
 ---
 
 # Documentación Técnica
 
-A continuación se detallan las decisiones de ingeniería para cumplir con los requerimientos del Reto Técnico.
+A continuación se detallan las decisiones de ingeniería para cumplir con los requerimientos solicitados.
 
 ### Stack Tecnológico
 * **Frontend:** Vue 3 (Composition API) + TypeScript + Pinia + Tailwind CSS.
